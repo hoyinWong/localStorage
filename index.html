@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+	<title>localstorage小知识</title>
+	<script type="text/javascript">
+		var startTime = new Date();
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/lib/zepto.js"></script>
+	<script type="text/javascript">
+		var endTime = new Date();
+	</script>
+</head>
+<body>
+	<div>
+		<h1>这是一个localstorage来存储页面的白屏和首屏时间</h1>
+		<p>从小的方面一点点练习，去深入了解以及掌握</p>
+		<ul>
+			<li>1.localstorage只能存储字符串</li>
+			<li>2.所以存储的时候需要json.stringify()转换</li>
+			<li>3.取值的时候json.parse()</li>
+		</ul>
+	</div>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
